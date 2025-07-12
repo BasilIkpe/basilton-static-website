@@ -14,7 +14,7 @@ interface ImageNumber {
 
 const TeamSection: React.FC = () => {
   const [imageNumber, setImageNumber] = useState<ImageNumber>({ first: 0, second: 1 })
-  const { first, second } = imageNumber
+  const { first } = imageNumber
 
   const handleImageChange = (dir: 'back' | 'fwd'): void => {
     changeSlideHandler(dir, setImageNumber, team)

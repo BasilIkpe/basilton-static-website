@@ -6,7 +6,7 @@ import { Section } from '../../components/section'
 import { Title } from '../../components/ui'
 import { Button } from '../../components/buttons'
 import { terms } from '../../data/terms'
-import { UnorderedList } from '../privacy/page'
+import { UnorderedListProps } from '../privacy/page'
 
 interface TermItem {
   title: string
@@ -18,6 +18,18 @@ interface TermItem {
 interface TitleBodyProps {
   title: string
   body: string
+}
+
+const UnorderedList: React.FC<UnorderedListProps> = ({ arr }) => {
+  return (
+    <ul className="list-disc my-2 list-inside text-justify body">
+      {arr.map((each, index) => (
+        <li key={index} className="py-1">
+          <p className="inline">{each}</p>
+        </li>
+      ))}
+    </ul>
+  )
 }
 
 const TitleBody: React.FC<TitleBodyProps> = ({ title, body }) => {

@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, ChangeEvent, FormEvent } from 'react'
+import { useState, FormEvent } from 'react'
 import { PageBtn } from '../../components/buttons'
 import { PageLayout } from '../../components/layout'
 import { Section } from '../../components/section'
@@ -11,9 +11,9 @@ import { toast } from 'react-toastify'
 
 const Partner: React.FC = () => {
   const [Name, setName] = useState<string>('')
-  const [Email, setEmail] = useState<string>('')
-  const [Phone, setPhone] = useState<string>('')
-  const [Location, setLocation] = useState<string>('')
+  const [Email] = useState<string>('')
+  const [Phone] = useState<string>('')
+  const [Location] = useState<string>('')
   const [Staff_Strength, setStaff_Strength] = useState<string>('')
   const [Partnership, setPartnership] = useState<string>('')
 
@@ -95,7 +95,7 @@ const Partner: React.FC = () => {
               id="name"
               value={Name}
               name="Name"
-              onChangeHandler={(e: ChangeEvent<HTMLInputElement>) => setName(e.target.value)}
+              onChangeHandler={(e) => setName(e.target.value)}
             />
             <FormInput
               label="Email"
@@ -103,7 +103,7 @@ const Partner: React.FC = () => {
               value={Email}
               name="Email"
               type="email"
-              onChangeHandler={(e: ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)}
+              onChangeHandler={(e) => setName(e.target.value)}
             />
             <FormInput
               label="Phone Number"
@@ -111,14 +111,14 @@ const Partner: React.FC = () => {
               value={Phone}
               name="Phone"
               type="tel"
-              onChangeHandler={(e: ChangeEvent<HTMLInputElement>) => setPhone(e.target.value)}
+              onChangeHandler={(e) => setName(e.target.value)}
             />
             <FormInput
               label="Location"
               id="location"
               value={Location}
               name="Location"
-              onChangeHandler={(e: ChangeEvent<HTMLInputElement>) => setLocation(e.target.value)}
+              onChangeHandler={(e) => setName(e.target.value)}
             />
             <FormInput
               label="No of Staff Strength"
@@ -126,9 +126,7 @@ const Partner: React.FC = () => {
               value={Staff_Strength}
               name="Staff_Strength"
               type="number"
-              onChangeHandler={(e: ChangeEvent<HTMLInputElement>) =>
-                setStaff_Strength(e.target.value)
-              }
+              onChangeHandler={(e) => setStaff_Strength(e.target.value)}
             />
 
             <div className="glass rounded-lg mt-3">

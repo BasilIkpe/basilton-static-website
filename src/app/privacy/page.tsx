@@ -75,11 +75,11 @@ const ContentContainer: React.FC<ContentContainerProps> = ({ children }) => {
   return <div className="my-2">{children}</div>
 }
 
-interface UnorderedListProps {
+export interface UnorderedListProps {
   arr: string[]
 }
 
-export const UnorderedList: React.FC<UnorderedListProps> = ({ arr }) => {
+const UnorderedList: React.FC<UnorderedListProps> = ({ arr }) => {
   return (
     <ul className="list-disc my-2 list-inside text-justify body">
       {arr.map((each, index) => (

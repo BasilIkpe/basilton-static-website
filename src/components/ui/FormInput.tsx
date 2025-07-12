@@ -6,10 +6,10 @@ interface FormInputProps {
   name?: string
   id?: string
   value?: string
-  onChange: (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void
+  onChangeHandler: (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => void
 }
 
-const FormInput: React.FC<FormInputProps> = ({ label, type, name, id, value, onChange }) => {
+const FormInput: React.FC<FormInputProps> = ({ label, type, name, id, value, onChangeHandler }) => {
   return (
     <div className="flex flex-col gap-3">
       <label htmlFor={id} className="text-[12px]">
@@ -17,7 +17,7 @@ const FormInput: React.FC<FormInputProps> = ({ label, type, name, id, value, onC
       </label>
       <div className="glass rounded-lg">
         <input
-          onChange={onChange}
+          onChange={onChangeHandler}
           type={type}
           name={name}
           id={id}

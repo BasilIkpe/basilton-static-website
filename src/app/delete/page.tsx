@@ -1,6 +1,5 @@
 'use client'
 
-
 import { PageLayout } from '../../components/layout'
 import { FormInput, Title } from '../../components/ui'
 import { Section } from '../../components/section'
@@ -46,7 +45,7 @@ const Delete = () => {
                 id="email"
                 name="email"
                 value={formData.email}
-                onChange={handleChange}
+                onChangeHandler={() => handleChange}
                 type="email"
               />
               <FormInput
@@ -54,7 +53,7 @@ const Delete = () => {
                 id="password"
                 name="password"
                 value={formData.password}
-                onChange={handleChange}
+                onChangeHandler={() => handleChange}
                 type="password"
               />
               <FormInput
@@ -62,7 +61,7 @@ const Delete = () => {
                 id="reason"
                 name="reason"
                 value={formData.reason}
-                onChange={handleChange}
+                onChangeHandler={() => handleChange}
               />
             </div>
 

@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
         <Title first="Con" second="tact" height="h-16" />
         <p className="my-5 body">How to reach us</p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-y-4 md:gap-y-2 mb-5 body">
+        <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-y-4j md:gap-y-2 mb-5 body">
           <div className="flex flex-col gap-0  md:gap-5">
             <div className="flex items-center gap-4 ">
               <IconBox>

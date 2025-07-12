@@ -50,44 +50,49 @@ const Support: React.FC = () => {
 
         <form onSubmit={onSubmitHandler}>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 gap-y-5">
-            <FormInput label="Name" name="name" value={formData.name} onChange={onChangeHandler} />
+            <FormInput
+              label="Name"
+              name="name"
+              value={formData.name}
+              onChangeHandler={() => onChangeHandler}
+            />
             <FormInput
               label="Email"
               name="email"
               type="email"
               value={formData.email}
-              onChange={onChangeHandler}
+              onChangeHandler={() => onChangeHandler}
             />
             <FormInput
               label="Phone Number"
               name="phoneNumber"
               type="tel"
               value={formData.phoneNumber}
-              onChange={onChangeHandler}
+              onChangeHandler={() => onChangeHandler}
             />
             <FormInput
               label="Description of the issue"
               name="issueDescription"
               value={formData.issueDescription}
-              onChange={onChangeHandler}
+              onChangeHandler={() => onChangeHandler}
             />
             <FormInput
               label="Screenshot"
               name="screenshot"
               value={formData.screenshot}
-              onChange={onChangeHandler}
+              onChangeHandler={() => onChangeHandler}
             />
             <FormInput
               label="Priority level"
               name="priorityLevel"
               value={formData.priorityLevel}
-              onChange={onChangeHandler}
+              onChangeHandler={() => onChangeHandler}
             />
             <FormInput
               label="Download agreement form"
               name="agreementForm"
               value={formData.agreementForm}
-              onChange={onChangeHandler}
+              onChangeHandler={() => onChangeHandler}
             />
           </div>
 
