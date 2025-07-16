@@ -10,9 +10,9 @@ interface SocialsProps {
 const Socials: React.FC<SocialsProps> = ({ className = '', height = '', w = 40, h = 40 }) => {
   const socials = [
     { href: '', src: '/assets/svg/instagram.svg', alt: 'Instagram' },
-    { href: '', src: '/assets/svg/x.svg', alt: 'X' },
+    // { href: '', src: '/assets/svg/x.svg', alt: 'X' },
     { href: '', src: '/assets/svg/facebook.svg', alt: 'Facebook' },
-    { href: '', src: '/assets/svg/youtube.svg', alt: 'YouTube' },
+    // { href: '', src: '/assets/svg/youtube.svg', alt: 'YouTube' },
   ]
 
   return (

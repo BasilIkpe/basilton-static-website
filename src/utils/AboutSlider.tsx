@@ -64,6 +64,41 @@ const AboutSlider: FC = () => {
           />
         </div>
       </SwiperSlide>
+      <SwiperSlide>
+        <div className="relative  h-[40vh] md:h-[55vh] w-full rounded-xl overflow-hidden">
+          <Image
+            src="/assets/images/aboutImages/eight.png"
+            alt="Slide 4"
+            objectFit="cover"
+            priority
+            fill
+          />
+        </div>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <div className="relative  h-[40vh] md:h-[55vh] w-full rounded-xl overflow-hidden">
+          <Image
+            src="/assets/images/aboutImages/nine.png"
+            alt="Slide 5"
+            objectFit="cover"
+            priority
+            fill
+          />
+        </div>
+      </SwiperSlide>
+
+      <SwiperSlide>
+        <div className="relative  h-[40vh] md:h-[55vh] w-full rounded-xl overflow-hidden">
+          <Image
+            src="/assets/images/aboutImages/seven.png"
+            alt="Slide 6"
+            objectFit="cover"
+            priority
+            fill
+          />
+        </div>
+      </SwiperSlide>
     </Swiper>
   )
 }

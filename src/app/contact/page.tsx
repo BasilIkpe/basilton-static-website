@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
               <IconBox>
                 <Image src="/assets/svg/call.svg" alt="Phone Icon" width={20} height={20} />
               </IconBox>
-              <p className="text-sm font-bold">+234 806 040 4467</p>
+              <p className="text-sm font-bold">+234 916 548 5638</p>
               <Image src="/assets/svg/copy.svg" alt="Copy Icon" width={16} height={16} />
             </div>
 
@@ -69,7 +69,7 @@ const Contact: React.FC = () => {
             <ul className="list-disc list-inside text-[12px] leading-8 font-poppins font-medium tracking-wider">
               <li>Suit & Lunar Plaza, Plot C47, 521 Road, Gwarinpa II, Abuja</li>
               <li>Lekki, Lagos</li>
-              <li>13 Daniel Makinde, Ikosi</li>
+              {/* <li>13 Daniel Makinde, Ikosi</li> */}
             </ul>
           </div>
         </div>

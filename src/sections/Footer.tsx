@@ -51,7 +51,7 @@ const Footer: FC<FooterProps> = ({ noSnap = false }) => {
             <div className="text-[12px] gap-1 text-[#FFFFFFCC] flex flex-col">
               <span>Suit & Lunar Plaza, Plot C47, 521 Road, Gwarinpa II, Abuja</span>
               <span>Lekki, Lagos</span>
-              <span>13 Daniel Makinde, Ikosi</span>
+              {/* <span>13 Daniel Makinde, Ikosi</span> */}
             </div>
           </section>
 

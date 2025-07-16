@@ -23,7 +23,7 @@ export const testimonial = [
   },
   {
     image: trem,
-    name: 'TREM',
+    name: 'ZoeHouse hold Church',
     text: 'Our workflow underwent a transformation boost in efficiency thanks to this application. I wholeheartedly endorse it for any company seeking exponential productivity gains',
   },
   {
@@ -33,7 +33,7 @@ export const testimonial = [
   },
   {
     image: elumelu,
-    name: 'Tony Elumelu foundation',
+    name: 'Rock Solid Fellowship',
     text: 'Using this platform has increased the work rate of our staffs',
   },
   {
