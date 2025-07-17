@@ -15,6 +15,8 @@ export const designerr = '/assets/images/otherServices/designerr.jpg'
 export const cx = '/assets/images/otherServices/cx.jpg'
 export const dashboard = '/assets/images/otherServices/dashboard.png'
 
+export const zoe = '/assets/images/aboutImages/five.jpg'
+
 export const testimonial = [
   {
     image: house,
@@ -22,7 +24,7 @@ export const testimonial = [
     text: 'The application streamlined our processes and boosted productivity exponentially. Highly recommend it to any business looking for efficiency gains',
   },
   {
-    image: trem,
+    image: zoe,
     name: 'ZoeHouse hold Church',
     text: 'Our workflow underwent a transformation boost in efficiency thanks to this application. I wholeheartedly endorse it for any company seeking exponential productivity gains',
   },
@@ -32,7 +34,7 @@ export const testimonial = [
     text: 'Our productivity skyrocketed with this application, streamlining processes. Highly recommend it for efficiency gains in any business',
   },
   {
-    image: elumelu,
+    image: trem,
     name: 'Rock Solid Fellowship',
     text: 'Using this platform has increased the work rate of our staffs',
   },

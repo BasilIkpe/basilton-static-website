@@ -14,9 +14,9 @@ const NavBAr: React.FC<NavBarProps> = ({ glass, fixed }) => {
     <div className={`w-full z-50 ${glass ? 'glass' : ''} ${fixed ? 'fixed top-0' : ''}`}>
       <SectionContainer>
         <div className="flex items-center justify-between font-helvetica py-2">
-          <div className="relative h-[25px] w-auto">
+          <div className="relative h-[50px] w-[50px]">
             <Image
-              src="/assets/images/others/logo.png"
+              src="/assets/images/logo.png"
               alt="logo"
               fill
               style={{ objectFit: 'contain' }}
@@ -42,8 +42,6 @@ const NavBAr: React.FC<NavBarProps> = ({ glass, fixed }) => {
               <Button text="sign up" />
             </div>
           </div>
-
-          
         </div>
       </SectionContainer>
     </div>
