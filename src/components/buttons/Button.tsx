@@ -25,7 +25,7 @@ const Button: FC<ButtonProps> = ({ custom, text, arrow, onClickHandler, redirect
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.figma.com/file/H9qVizC8JvoBNGbJwwvMrH/Visitor-management-system?type=design&node-id=601-968&mode=design&t=Sn1PhKsS6Dntf1jn-0"
+              // href="https://www.figma.com/file/H9qVizC8JvoBNGbJwwvMrH/Visitor-management-system?type=design&node-id=601-968&mode=design&t=Sn1PhKsS6Dntf1jn-0"
             >
               {text}
             </a>

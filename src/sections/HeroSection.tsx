@@ -38,9 +38,10 @@ const HeroSection: FC = () => {
                 />
               </div>
 
-              <Box size="w-[70%] top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+              <Box size="w-[70%] top-1/3 left-1/2 transform -translate-x-1/2 -translate-y-[60px]" />
+
               <h2 className="leading-[] md:leading-[3.5rem] text-3xl md:text-5xl mt-[-25px] z-30 relative">
-                the in-depth
+                {/* the in-depth
                 <span className="rounded-lg -mt-1 relative">
                   <Image
                     src="/assets/images/others/ai.png"
@@ -51,10 +52,11 @@ const HeroSection: FC = () => {
                     style={{ verticalAlign: 'middle' }}
                   />
                 </span>{' '}
-                church solutions-still waters
+                church solutions-still waters */}
+                Still Waters
               </h2>
               <p className="mt-3 tracking-[10px] text-[10px] md:text-lg">
-                Divine simplicity in every details
+                AI-Powered Church Solutions
               </p>
             </div>
 
